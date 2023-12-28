@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: block;
+    background-color: #041E42;
+    padding: 50px;
+    height: 80vh;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-top: 200px;
+
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+.search-input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+button
+{
+    
+    border-radius: 10px;
+    width: 100px;
+    background-color: #041E42;
+    color: white;
+    border: 2px solid #041E42;
+}
+button :hover
+{
+    border: 2px solid red;
+}
